@@ -22,18 +22,18 @@ To test this servlet, you will type in the browser: http://localhost:8082/northb
 
 When you click on the link of Products of category with id=4, you will get the list of products included in that category, as you can see in the following figure.
 
-![List of products of a category](https://github.com/josuneha/SoftEng/blob/master/CategoryProductList.jpg)
+![List of products of a category](https://josuneha.github.io/SoftEng/CategoryProductList.jpg)
 
 # Category edition
 You should develop the servlets to edit an existing category. To do so, add a new column in the table when you list the categories to be able to edit an existing category. 
 
-![List of categories](https://github.com/josuneha/SoftEng/blob/master/CategoryList2.png)
+![List of categories](https://josuneha.github.io/SoftEng/CategoryList2.png)
 
 When you select one category and click on Edit link, you should show a table with the information of the selected Category. The following figure shows the information of Category with id=1. 
 In this table, you should be able to change the Name and Description fields and update them in the database when you click on Enviar button. 
 
-![Category update](https://github.com/josuneha/SoftEng/blob/master/CategoryEdit.png)
-![Category update2](https://github.com/josuneha/SoftEng/blob/master/CategoryUpdateEx.png)
+![Category update](https://josuneha.github.io/SoftEng/CategoryEdit.png)
+![Category update2](https://josuneha.github.io/SoftEng/CategoryUpdateEx.png)
 
 
 
