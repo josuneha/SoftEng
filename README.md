@@ -44,7 +44,7 @@ In this table, you should be able to change the Name and Description fields and 
 Develop the servlets you think are needed to add a new product to an existing order. 
 You can click on the menu Last Order on the top of the page to show the order with id=10273. 
 
-![Order1](https://github.com/josuneha/SoftEng/blob/master/OrderEdit2.png)
+![Order1](OrderEdit2.png)
 
 
 
@@ -59,7 +59,7 @@ http://localhost:8082/northbrick3LabSolution/OrderEdit?id=10483
 
 
 
-![Order2](https://github.com/josuneha/SoftEng/blob/master/OrderEdit3.png)
+![Order2](OrderEdit3.png)
 
 Once we have inserted the new product, this product will appear in the table as it is shown in the next figure. Please, remember that we are not still saving the ProductName in the database. You will do it using Ajax in next lessons. 
 
