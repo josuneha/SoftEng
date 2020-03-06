@@ -51,7 +51,7 @@ You can click on the menu Last Order on the top of the page to show the order wi
 When the information of an order is shown, we should also include a table with a row just to insert the new product in that order. This 
 table will include the following fields: productId, productName, unitPrice, quantity and discount. This table will also include a button to Save this information in the database. 
 
-Important: The information of the productName field is not sent to the database, so it will not be saved in the database but we will keep it to use it when you learn how to use Ajax. 
+IMPORTANT: The information of the productName field is not sent to the database, so it will not be saved in the database but we will keep it to use it when you learn how to use Ajax. 
 - The discount field needs a value between 0 an 1.
 
 If you want to add new products to another order, you should type the following text changing the id of the order you want to change. 
@@ -61,7 +61,8 @@ http://localhost:8082/northbrick3LabSolution/OrderEdit?id=10483
 
 ![Order2](https://github.com/josuneha/SoftEng/blob/master/OrderEdit3.png)
 
+Once we have inserted the new product, this product will appear in the table as it is shown in the next figure. Please, remember that we are not still saving the ProductName in the database. You will do it using Ajax in next lessons. 
 
-
+![Order3](https://github.com/josuneha/SoftEng/blob/master/OrderEdit4.png)
 
 © 2020 GitHub, Inc.
