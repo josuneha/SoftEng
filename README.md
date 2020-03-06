@@ -32,8 +32,8 @@ You should develop the servlets to edit an existing category. To do so, add a ne
 When you select one category and click on Edit link, you should show a table with the information of the selected Category. The following figure shows the information of Category with id=1. 
 In this table, you should be able to change the Name and Description fields and update them in the database when you click on Enviar button. 
 
-![Category update](https://josuneha.github.io/SoftEng/CategoryEdit.png)
-![Category update2](https://josuneha.github.io/SoftEng/CategoryUpdateEx.png)
+![Category update](CategoryEdit.png)
+![Category update2](CategoryUpdateEx.png)
 
 
 
@@ -63,6 +63,6 @@ http://localhost:8082/northbrick3LabSolution/OrderEdit?id=10483
 
 Once we have inserted the new product, this product will appear in the table as it is shown in the next figure. Please, remember that we are not still saving the ProductName in the database. You will do it using Ajax in next lessons. 
 
-![Order3](https://github.com/josuneha/SoftEng/blob/master/OrderEdit4.png)
+![Order3](OrderEdit4.png)
 
 © 2020 GitHub, Inc.
