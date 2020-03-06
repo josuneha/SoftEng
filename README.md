@@ -44,7 +44,7 @@ In this table, you should be able to change the Name and Description fields and 
 Develop the servlets you think are needed to add a new product to an existing order. 
 You can click on the menu Last Order on the top of the page to show the order with id=10273. 
 
-![Order1](https://nicolasserrano.github.io/CS/Java/images/OrderEdit2.jpg)
+![Order1](https://github.com/josuneha/SoftEng/blob/master/OrderEdit2.jpg)
 
 
 
@@ -59,9 +59,9 @@ http://localhost:8082/northbrick3LabSolution/OrderEdit?id=10483
 
 
 
-![Order2](https://nicolasserrano.github.io/CS/Java/images/OrderEdit10483.jpg)
+![Order2](https://github.com/josuneha/SoftEng/blob/master/OrderEdit3.jpg)
 
-![Order3](https://nicolasserrano.github.io/CS/Java/images/OrderEditLineHTML10483.jpg)
+
 
 
 © 2020 GitHub, Inc.
