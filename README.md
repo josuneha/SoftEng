@@ -7,7 +7,7 @@ Install the northbrick application from the files in the folder:
 
 # Product edition
 
-In the Servlet ProductEdit, include the other fields of the product:  CategoryId, QuantityPerUnit, UnitsInStock, UnitsOnOrder, ReorderLevel, Discontinued.
+In the Servlet ProductEdit, include the other fields of the product:  CategoryId, QuantityPerUnit, UnitsInStock and UnitsOnOrder.
 The changes are saved in the servlet ProductUpdate.java
 
 # Category list
