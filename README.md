@@ -44,16 +44,24 @@ In this table, you should be able to change the Name and Description fields and 
 Develop the servlets you think are needed to add a new product to an existing order. 
 You can click on the menu Last Order on the top of the page to show the order with id=10273. 
 
-When the information of an order is shown, we should also include a table with a row just to insert the new product in that order. This table will include the following fields: productId, productName, unitPrice, quantity and discount. This table will also include a button to Save this information in the database. 
+![Order1](https://nicolasserrano.github.io/CS/Java/images/OrderEdit2.jpg)
+
+
+
+When the information of an order is shown, we should also include a table with a row just to insert the new product in that order. This 
+table will include the following fields: productId, productName, unitPrice, quantity and discount. This table will also include a button to Save this information in the database. 
 
 Important: The information of the productName field is not sent to the database, so it will not be saved in the database but we will keep it to use it when you learn how to use Ajax. 
+- The discount field needs a value between 0 an 1.
 
 If you want to add new products to another order, you should type the following text changing the id of the order you want to change. 
 http://localhost:8082/northbrick3LabSolution/OrderEdit?id=10483
 
 
 
-![Order](https://nicolasserrano.github.io/CS/Java/images/OrderEdit10483.jpg)
-and you will need to get the final figure (take into account the discount is a value between 0 an 1).
-![Order](https://nicolasserrano.github.io/CS/Java/images/OrderEditLineHTML10483.jpg)
+![Order2](https://nicolasserrano.github.io/CS/Java/images/OrderEdit10483.jpg)
+
+![Order3](https://nicolasserrano.github.io/CS/Java/images/OrderEditLineHTML10483.jpg)
+
+
 © 2020 GitHub, Inc.
