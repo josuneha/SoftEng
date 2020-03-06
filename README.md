@@ -18,7 +18,7 @@ http://localhost:8080/northbrick3/ProductList?id=categoryId
 
 To test this servlet, you will type in the browser: http://localhost:8082/northbrick3/CategoryList
 
-![List of categories](https://github.com/josuneha/SoftEng/blob/master/CategoryList.png)
+![List of categories](https://josuneha.github.io/SoftEng/CategoryList.png)
 
 When you click on the link of Products of category with id=4, you will get the list of products included in that category, as you can see in the following figure.
 
