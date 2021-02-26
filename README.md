@@ -10,7 +10,7 @@ We want to include further information in the  ProductEdit Servlet such as :  Ca
 Once you have made changes in this class, you should make changes in ProductEdit servlet so that you can show in the table the new fields: CategoryId, QuantityPerUnit, UnitsInStock and UnitsOnOrder.
 If you want to update some of these values in the database, the changes will be saved in the servlet ProductUpdate.java.
 
-In this link, you will find an explanation of the solution to this exercise. [Solution](https://josuneha.github.io/SoftEng/Ex1Explanation)
+In this link, you will find an explanation of the solution to this exercise. [Exercise Solution](https://josuneha.github.io/SoftEng/Ex1Explanation)
 
 # Category list
 
