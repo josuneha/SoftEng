@@ -8,7 +8,8 @@ Install the northbrick application from the files in the folder:
 # Product edition
 We want to include further information in the  ProductEdit Servlet such as :  CategoryId, QuantityPerUnit, UnitsInStock and UnitsOnOrder. To do so, you should include these fields as attributes in ProductData class, in addition to add a new constructor and a new method to get this information from the database. 
 Once you have made changes in this class, you should make changes in ProductEdit servlet so that you can show in the table the new fields: CategoryId, QuantityPerUnit, UnitsInStock and UnitsOnOrder.
-If you want to update some of these values in the database, the changes will be saved in the servlet ProductUpdate.java.
+
+If you want to update some of these values in the database, you will develop a new method to update the database in the ProductDAta class and this new method will be used in in the servlet ProductUpdate.java.
 
 In this link, you will find an explanation of the solution to this exercise. [Exercise Solution](https://josuneha.github.io/SoftEng/Ex1Explanation)
 
