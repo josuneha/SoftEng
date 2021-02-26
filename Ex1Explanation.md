@@ -13,3 +13,61 @@ If you start the application and go to ProductList Servlet, you will see the lis
 http://localhost:8082/northbrick3LabSolution/ProductList
 
 ![List of products](https://josuneha.github.io/SoftEng/ProductListEx1.png)
+
+
+If we click on Edit link, we want to see the additional info in the table: CategoryId, QuantityPerUnit, UnitsInStock and UnitsOnOrder.
+
+![Product Information](https://josuneha.github.io/SoftEng/ProductListEx1b.png)
+
+To do this you need to follow the following steps:
+1) Add new fields/attributes in ProductData.java class:
+
+```
+public class ProductData {
+    String    productId;
+    String productName;
+    int    supplierId;
+    String companyName;
+    float    unitPrice;
+	
+	//------New---------------
+	// Add new attributes in the class
+	int categoryId;
+	int quantityPerUnit;
+	int unitsInStock;
+	int unitsOnOrder;
+	
+	//-------------------------------------------
+	
+
+```
+
+```
+ProductData (String productId, String productName, int supplierId, String companyName, float unitPrice) {
+        this.productId    = productId;
+        this.productName  = productName;
+        this.supplierId   = supplierId;
+        this.companyName = companyName;
+        this.unitPrice = unitPrice;
+    }
+	
+	//------New---------------
+	// New constructor with the new fields	
+	  ProductData (String productId, String productName, int supplierId, String companyName, float unitPrice, int catId, int quantity, int stock, int order) {
+        this.productId    = productId;
+        this.productName  = productName;
+        this.supplierId   = supplierId;
+        this.companyName = companyName;
+        this.unitPrice = unitPrice;
+		
+		this.categoryId    = catId;
+        this.quantityPerUnit  = quantity;
+        this.unitsInStock   = stock;
+		this.unitsOnOrder =order;
+        
+			
+    }
+	
+  //-------------------------------------------------------------------------------------
+
+```
