@@ -12,4 +12,4 @@ This is a guide to understand what you need to do in this exercise.
 If you start the application and go to ProductList Servlet, you will see the list of products as you see in the following picture. 
 http://localhost:8082/northbrick3LabSolution/ProductList
 
-![List of productos](https://josuneha.github.io/SoftEng/ProductListEx1.png)
+![List of products](https://josuneha.github.io/SoftEng/ProductListEx1.png)
