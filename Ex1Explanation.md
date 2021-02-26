@@ -193,3 +193,4 @@ public class ProductEdit extends HttpServlet {
 }
 
 ```
+5) Now, if you want to update the fields of the product so that the changes are updated in the database, you should create a new method similar to updataProduct in ProductData class. Please, try to do it!!
