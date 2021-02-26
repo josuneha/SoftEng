@@ -6,9 +6,9 @@ Install the northbrick application from the files in the folder:
 [https://github.com/nicolasserrano/CS/tree/master/webapps/northbrick3](https://github.com/nicolasserrano/CS/tree/master/webapps/northbrick3)
 
 # Product edition
-
-In the Servlet ProductEdit, include the other fields of the product:  CategoryId, QuantityPerUnit, UnitsInStock and UnitsOnOrder.
-The changes are saved in the servlet ProductUpdate.java
+We want to include further information in the  ProductEdit Servlet such as :  CategoryId, QuantityPerUnit, UnitsInStock and UnitsOnOrder. To do so, you should include these fields as attributes in ProductData class, in addition to add a new constructor and a new method to get this information from the database. 
+Once you have made changes in this class, you should make changes in ProductEdit servlet so that you can show in the table the new fields: CategoryId, QuantityPerUnit, UnitsInStock and UnitsOnOrder.
+If you want to update some of these values in the database, the changes will be saved in the servlet ProductUpdate.java.
 
 # Category list
 
