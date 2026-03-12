@@ -15,11 +15,18 @@ In this link, you will find an explanation of the solution to this exercise. [Ex
 
 # Category list
 
-Create a Servlet that lists all the categories from the table Categories. The following figure shows the format of this table and the fields you need to show. In addition to the fields from the Categories table in the database, each category row will also have a link to this existing servlet, where the categoryId field is the id of the category.
+First, you should create a Servlet that lists all the categories from the table Categories. The following figure shows the format of this table and the fields you need to show. 
+To test this servlet, you will type in the browser: 
+
+http://localhost:8082/northbrick3/CategoryList
+
+![List of categories](https://josuneha.github.io/SoftEng/CategoryList0.png)
+
+Once you can see the category list, add a 'Products' column containing a link to the existing ProductList servlet. Ensure the link passes the **categoryId** as a parameter so the servlet can retrieve and display only the relevant products from the database.
+
+The url you will see when you click on the Products link should be: 
 
 http://localhost:8080/northbrick3/ProductList?id=categoryId 
-
-To test this servlet, you will type in the browser: http://localhost:8082/northbrick3/CategoryList
 
 ![List of categories](https://josuneha.github.io/SoftEng/CategoryList.png)
 
@@ -28,7 +35,8 @@ When you click on the link of Products of category with id=4, you will get the l
 ![List of products of a category](https://josuneha.github.io/SoftEng/CategoryProductList.jpg)
 
 # Category edition
-You should develop the servlets to edit an existing category. To do so, add a new column in the table when you list the categories to be able to edit an existing category. 
+
+You should develop the servlet to edit an existing category (**CategoryEdit**). To do so, add a new column in the table when you list the categories to be able to edit an existing category. 
 
 ![List of categories](https://josuneha.github.io/SoftEng/CategoryList2.png)
 
@@ -39,7 +47,11 @@ In this table, you should be able to change the Name and Description fields and 
 ![Category update2](CategoryUpdateEx.png)
 
 
+The information you will send to the database to be updated must be included in a form as it follows: 
 
+`<form action='CategoryUpdate' method='GET'>`
+
+The action attribute in an HTML form is a parameter that defines where form data should be sent after a user submits it. In this case, we will develop a servlet called **CategoryUpdate** that will read the information from the url using **getParameter** function and will updadte the information in the database. 
 
 
 # Order creation
@@ -49,8 +61,6 @@ You can click on the menu Last Order on the top of the page to show the order wi
 
 ![Order1](OrderEdit2.png)
 
-
-
 When the information of an order is shown, we should also include a table with a row just to insert the new product in that order. This 
 table will include the following fields: productId, productName, unitPrice, quantity and discount. This table will also include a button to Save this information in the database. 
 
@@ -59,8 +69,6 @@ IMPORTANT: The information of the productName field is not sent to the database,
 
 If you want to add new products to another order, you should type the following text changing the id of the order you want to change. 
 http://localhost:8082/northbrick3LabSolution/OrderEdit?id=10483
-
-
 
 ![Order2](OrderEdit3.png)
 
