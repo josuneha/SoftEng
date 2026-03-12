@@ -14,7 +14,7 @@ If you want to update some of these values in the database, you will develop a n
 In this link, you will find an explanation of the solution to this exercise. [Exercise Solution](https://josuneha.github.io/SoftEng/Ex1Explanation)
 
 # Category list
-
+You can look at this file to have more details about how to solve the exercise: [StepsToSolveExercise](https://josuneha.github.io/SoftEng/northbrickApp.pdf)
 First, you should create a Servlet that lists all the categories from the table Categories. The following figure shows the format of this table and the fields you need to show. 
 To test this servlet, you will type in the browser: 
 
