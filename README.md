@@ -68,4 +68,3 @@ Once we have inserted the new product, this product will appear in the table as 
 
 ![Order3](OrderEdit4.png)
 
-© 2020 GitHub, Inc.
