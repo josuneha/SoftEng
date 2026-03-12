@@ -51,5 +51,5 @@ The information you will send to the database to be updated must be included in 
 
 `<form action='CategoryUpdate' method='GET'>`
 
-The action attribute in an HTML form is a parameter that defines where form data should be sent after a user submits it. In this case, we will develop a servlet called **CategoryUpdate** that will read the information from the url using **getParameter** function and will updadte the information in the database. 
+The action attribute in an HTML form is a parameter that defines where form data should be sent after a user submits it. In this case, we will develop a servlet called **CategoryUpdate** that will read the information from the url using **getParameter** function and will update the information in the database. 
 
